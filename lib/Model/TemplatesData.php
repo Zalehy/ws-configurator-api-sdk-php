@@ -369,7 +369,7 @@ class TemplatesData implements ModelInterface, ArrayAccess
     /**
      * Gets vehicle_data
      *
-     * @return string
+     * @return VehicleData
      */
     public function getVehicleData()
     {
@@ -379,7 +379,7 @@ class TemplatesData implements ModelInterface, ArrayAccess
     /**
      * Sets vehicle_data
      *
-     * @param string $vehicle_data vehicle_data
+     * @param VehicleData $vehicle_data vehicle_data
      *
      * @return $this
      */
